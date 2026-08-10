@@ -207,7 +207,7 @@ Additional adjustments are applied for smaller screens.
 
 ### 1. Clone the repository
 
-git clone https://github.com/your-username/rangoli-restaurant.git
+git clone https://github.com/DevadasuGudari/restaurent-repo.git
 
 ### 2. Open the project
 
