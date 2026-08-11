@@ -1,300 +1,124 @@
-# 🍛 Rangoli Restaurant
+# Rangoli Restaurant
 
-A modern Indian restaurant website designed to present the **Rangoli** dining experience through a warm, traditional, and elegant interface.
-
-The website combines Indian-inspired colors, typography, food imagery, restaurant information, menu sections, ambience, table reservations, location details, and user authentication pages into one responsive website.
+A modern Indian restaurant website built with HTML5 and CSS3, presenting the Rangoli dining experience through a warm, traditional, and elegant interface. It combines restaurant information, a food menu, gallery, table reservations, contact details, a cart, feedback, and customer authentication pages into one responsive site.
 
 ---
 
-## 🌿 About the Project
+## About the Project
 
-**Rangoli Restaurant** is a frontend web project created to demonstrate how a real-world restaurant website can be designed using HTML and CSS.
+Rangoli Restaurant is a frontend web project demonstrating how a real-world restaurant website can be designed using plain HTML and CSS, without any framework or backend.
 
-The design uses a warm Indian-inspired visual language with colors such as:
+The design uses a warm Indian-inspired visual language, including tones such as:
 
-* 🟤 Walnut / Deep Maroon
-* 🟡 Amber / Gold
-* 🟢 Pine Green
-* 🟠 Rose
-* 🟨 Traditional Paper tones
+- Walnut / deep maroon
+- Amber / gold
+- Pine green
+- Rose
+- Traditional paper tones
 
-The goal is to create a website that feels welcoming, cultural, elegant, and easy to navigate.
-
----
-
-## ✨ Features
-
-### 🏠 Home Page
-
-* Restaurant branding
-* Navigation bar
-* Hero section
-* Restaurant introduction
-* Call-to-action buttons
-* Featured food presentation
-
-### 🍽️ Menu
-
-* Categorized food menu
-* Dish names and descriptions
-* Prices
-* Indian restaurant-inspired menu layout
-
-### 📖 Our Story
-
-* Restaurant story
-* Food philosophy
-* Restaurant information
-* Opening hours
-
-### 📸 Food Gallery
-
-* Food image gallery
-* Large featured images
-* Hover effects
-* Responsive image layout
-
-### 🏮 Rangoli Culture
-
-* Restaurant culture section
-* Food philosophy
-* Restaurant ambience
-* Image-based content cards
-
-### 📅 Table Reservation
-
-* Reservation form
-* Customer details
-* Date and time selection
-* Number of guests
-* Special requests
-
-### 📍 Location
-
-* Restaurant location section
-* Restaurant information card
-* Map-style visual section
-
-### 🔐 Login & Signup
-
-* Login page
-* Signup page
-* Restaurant branding
-* Responsive authentication layout
-* Navigation between login and signup
-
-### 📱 Responsive Design
-
-The website is designed to work across:
-
-* Desktop
-* Laptop
-* Tablet
-* Mobile
-* Small mobile screens
+The goal is a site that feels welcoming, cultural, elegant, and easy to navigate.
 
 ---
 
-## 🛠️ Technologies Used
+## Pages
 
-| Technology        | Purpose                       |
-| ----------------- | ----------------------------- |
-| HTML5             | Website structure             |
-| CSS3              | Styling and responsive design |
-| Google Fonts      | Typography                    |
-| CSS Grid          | Page layouts                  |
-| Flexbox           | Component alignment           |
-| CSS Variables     | Theme management              |
-| CSS Media Queries | Responsive design             |
-| CSS Hover Effects | Interactive UI                |
-
----
-
-## 🎨 Design System
-
-The project uses CSS custom properties to maintain a consistent visual identity.
-
-
-:root {
-    --paper: #FBF1DE;
-    --paper-deep: #F3E2BE;
-    --ink: #2E1710;
-    --walnut: #7A1F2B;
-    --walnut-deep: #52141C;
-    --amber: #E8A33D;
-    --amber-soft: #F0C169;
-    --pine: #0F5C5C;
-    --pine-deep: #0A4444;
-    --brass: #B8860B;
-    --gold: #C9A227;
-    --rose: #C4432E;
-}
-
-These variables make it easier to maintain and modify the overall restaurant theme.
+| File | Title | Description |
+| --- | --- | --- |
+| `index.html` | Home | Landing page with branding, navigation, hero section, and featured content |
+| `menu.html` | Menu | Categorized food menu with dish names, descriptions, and prices |
+| `about.html` | Our Story | Restaurant story, food philosophy, and general information |
+| `gallery.html` | Gallery | Food and ambiance image gallery |
+| `reservation.html` | Reservation | Table reservation form (date, time, guests, special requests) |
+| `contact.html` | Visit Us | Location and contact information |
+| `cart.html` | Your Cart | Cart page for selected items |
+| `feedback.html` | Feedback | Customer feedback form |
+| `authentication/login.html` | Log in | Customer login page |
+| `authentication/signin.html` | Sign up | Customer registration page |
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
-
-Rangoli-Restaurant/
-│
+```
+Restaurent/
 ├── index.html
-├── login.html
-├── signup.html
-│
-├── css/
-│   └── style.css
-│
-├── images/
-│   ├── food/
-│   ├── ambiance/
-│   └── chef/
-│
-└── README.md
+├── menu.html
+├── about.html
+├── gallery.html
+├── reservation.html
+├── contact.html
+├── cart.html
+├── feedback.html
+├── style.css
+├── authentication/
+│   ├── login.html
+│   └── signin.html
+└── images/
+    ├── food/
+    ├── ambiance/
+    └── cheffs/
+```
 
 ---
 
-## 🖼️ Images
+## Technologies Used
 
-The project uses images for:
-
-* Indian dishes
-* Restaurant ambience
-* Chef section
-* Food gallery
-* Restaurant presentation
-
-Images are organized inside the `images` directory to keep the project structured and maintainable.
+| Technology | Purpose |
+| --- | --- |
+| HTML5 | Website structure |
+| CSS3 | Styling and responsive design |
+| CSS Grid & Flexbox | Page and component layout |
+| CSS Custom Properties | Theme management |
+| CSS Media Queries | Responsive design across screen sizes |
 
 ---
 
-## 📱 Responsive Breakpoints
+## Responsive Breakpoints
 
-The CSS includes responsive layouts for different screen sizes.
-
-### Desktop
-
-
-> 950px
-
-Uses multi-column layouts and full navigation.
-
-### Tablet
-
-
-601px - 950px
-
-Layouts adjust into fewer columns and the navigation becomes mobile-friendly.
-
-### Mobile
-
-
-≤ 600px
-
-Content changes to single-column layouts with optimized spacing and typography.
-
-### Small Mobile
-
-
-≤ 400px
-
-Additional adjustments are applied for smaller screens.
+- **Desktop** (> 950px): full multi-column layouts and navigation
+- **Tablet** (601px – 950px): fewer columns, mobile-friendly navigation
+- **Mobile** (≤ 600px): single-column layouts, optimized spacing and typography
+- **Small mobile** (≤ 400px): further layout adjustments
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run
 
-### 1. Clone the repository
+1. Download or clone the project folder.
+2. Open the folder in your code editor.
+3. Open `index.html` in a browser (or serve it with a tool like VS Code Live Server for the best experience).
 
-git clone https://github.com/DevadasuGudari/restaurent-repo.git
-
-### 2. Open the project
-
-Open the project folder in your code editor.
-
-### 3. Run the website
-
-Open:
-
-index.html
-
-in your browser.
-
-For the best development experience, use **VS Code with Live Server**.
+No build steps, package installs, or server are required — it is a static HTML/CSS site.
 
 ---
 
-## 🔗 Pages
+## Project Highlights
 
-| Page          | Description             |
-| ------------- | ----------------------- |
-| `index.html`  | Main restaurant website |
-| `login.html`  | Customer login          |
-| `signup.html` | Customer registration   |
-
----
-
-## 💡 Project Highlights
-
-This project demonstrates practical frontend development concepts including:
-
-* Semantic HTML
-* Modern CSS layouts
-* CSS Grid
-* Flexbox
-* Responsive web design
-* CSS custom properties
-* Form design
-* Image galleries
-* Navigation systems
-* Authentication UI
-* Hover interactions
-* Mobile-first adjustments
-* Reusable design components
+- Semantic HTML structure
+- Responsive design with CSS Grid and Flexbox
+- Consistent theming via CSS custom properties
+- Multiple linked pages: home, menu, about, gallery, reservation, contact, cart, feedback, login, and signup
+- Form-based pages for reservations and feedback
 
 ---
 
-## 🎯 Purpose
+## Future Improvements
 
-The project was created as a **real-world restaurant website concept** and can be used as a frontend portfolio project to demonstrate UI design and responsive web development skills.
-
----
-
-## 🔮 Future Improvements
-
-The project can be extended with:
-
-* JavaScript form validation
-* Online table reservation functionality
-* Food ordering system
-* Shopping cart
-* Online payment integration
-* Customer accounts
-* Backend integration
-* Restaurant admin dashboard
-* Database integration
-* Google Maps integration
-* Contact form functionality
+- JavaScript form validation
+- Functional table reservation and ordering system
+- Working shopping cart and checkout
+- Backend and database integration
+- Customer account and authentication logic
+- Map integration on the contact page
 
 ---
 
-## 👨‍💻 Author
+## Purpose
 
-**Devadasu**
-
-B.Tech – Computer Science & Engineering
-
-Frontend Web Development Project
+This project was created as a frontend portfolio piece to demonstrate restaurant website UI design and responsive web development using HTML and CSS.
 
 ---
 
-## 📄 License
+## License
 
-This project is created for **educational, portfolio, and demonstration purposes**.
-
----
-
-### ⭐ Rangoli Restaurant
-
-**Good food. Good memories. One table at a time.**
+This project is created for educational, portfolio, and demonstration purposes.
