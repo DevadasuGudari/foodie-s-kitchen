@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Reserve a table at Rangoli — pick a date, time and party size in under a minute.">
+
+    <title>Reservation | Rangoli</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <input type="checkbox" id="nav-toggle">
+
+    <header>
+
+        <div class="nav">
+
+            <a href="./index.html" class="mark">
+
+                Rangoli
+
+            </a>
+
+
+            <label class="burger" for="nav-toggle">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </label>
+
+
+            <nav class="nav-links">
+
+                <a href="./index.html">
+
+                    Home
+
+                </a>
+
+
+                <a href="./menu.html">
+
+                    Menu
+
+                </a>
+
+
+                <a href="./about.html">
+
+                    Our Story
+
+                </a>
+
+
+                <a href="./gallery.html">
+
+                    Gallery
+
+                </a>
+
+
+                <a href="./reservation.html" class="current">
+
+                    Reservation
+
+                </a>
+
+
+                <a href="./contact.html">
+
+                    Visit Us
+
+                </a>
+
+                <a href="./feedback.html">
+
+                    Feedback
+
+                </a>
+
+                <a href="./cart.html" class="cart-link">
+
+                    Cart
+
+                </a>
+
+                <a href="./authentication/login.html" class="account-link">
+
+                    Log in
+
+                </a>
+
+                <a href="./authentication/signin.html" class="visit-btn">
+
+                    Sign up
+
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+    <section class="page-hero">
+
+        <div class="wrap">
+
+            <div class="breadcrumb">
+
+                <a href="./index.html">Home</a> / Reservation
+
+            </div>
+
+            <div class="hero-eyebrow" style="color: var(--amber-soft);">Reservation</div>
+
+            <h1>Reserve your table</h1>
+
+            <p>Planning a meal with family or friends? Reserve your table and enjoy your time at Rangoli.</p>
+
+        </div>
+
+    </section>
+
+
+    <section class="reserve-section" id="reserve">
+
+        <div class="wrap">
+
+            <div class="reserve-grid">
+
+
+                <form class="reserve-form" action="mailto:hello@rangolikitchen.in" method="post" enctype="text/plain">
+
+
+                    <div class="form-row">
+
+                        <label for="res-name">Full Name</label>
+
+                        <input type="text" id="res-name" name="Name" placeholder="Enter your name" required>
+
+                    </div>
+
+
+                    <div class="form-row two-col">
+
+                        <div>
+                            <label for="res-email">Email</label>
+                            <input type="email" id="res-email" name="Email" placeholder="you@example.com" required>
+                        </div>
+
+                        <div>
+                            <label for="res-phone">Phone</label>
+                            <input type="tel" id="res-phone" name="Phone" placeholder="+91 90000 00000" required>
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-row three-col">
+
+                        <div>
+                            <label for="res-date">Date</label>
+                            <input type="date" id="res-date" name="Date" required>
+                        </div>
+
+                        <div>
+                            <label for="res-time">Time</label>
+                            <select id="res-time" name="Time" required>
+                                <option value="" disabled selected>Select</option>
+                                <option>08:00 AM</option>
+                                <option>09:00 AM</option>
+                                <option>10:00 AM</option>
+                                <option>11:00 AM</option>
+                                <option>12:00 PM</option>
+                                <option>01:00 PM</option>
+                                <option>02:00 PM</option>
+                                <option>03:00 PM</option>
+                                <option>04:00 PM</option>
+                                <option>05:00 PM</option>
+                                <option>06:00 PM</option>
+                                <option>07:00 PM</option>
+                                <option>08:00 PM</option>
+                                <option>09:00 PM</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="res-party">Guests</label>
+                            <select id="res-party" name="Guests" required>
+                                <option value="" disabled selected>Select</option>
+                                <option>1 Guest</option>
+                                <option>2 Guests</option>
+                                <option>3 Guests</option>
+                                <option>4 Guests</option>
+                                <option>5 Guests</option>
+                                <option>6 Guests</option>
+                                <option>7 Guests</option>
+                                <option>8 Guests</option>
+                                <option>9+ Guests (Private Dining)</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <label for="res-notes">Special Request</label>
+
+                        <textarea id="res-notes" name="Notes" rows="4"
+                            placeholder="Birthday, family dinner, window seat..."></textarea>
+
+                    </div>
+
+
+                    <button type="submit" class="btn-primary">Confirm Reservation</button>
+
+                    <div class="policy-note" style="margin-top: 18px;">
+
+                        <strong>Please note:</strong> tables are held for 15 minutes past the
+                        reserved time. For parties of 9 or more, our team will follow up to
+                        confirm private dining availability.
+
+                    </div>
+
+                </form>
+
+
+
+                <div class="reserve-side">
+
+                    <div class="reservation-box">
+                        <span class="reservation-number">01</span>
+                        <h3>Choose your date</h3>
+                        <p>Select the date and time that works best for you.</p>
+                    </div>
+
+                    <div class="reservation-box">
+                        <span class="reservation-number">02</span>
+                        <h3>Tell us about your visit</h3>
+                        <p>Let us know the number of guests and any special requests.</p>
+                    </div>
+
+                    <div class="reservation-box">
+                        <span class="reservation-number">03</span>
+                        <h3>Enjoy your meal</h3>
+                        <p>Arrive at Rangoli and enjoy freshly prepared Andhra food with your loved ones.</p>
+                    </div>
+
+                    <div class="reservation-box">
+                        <span class="reservation-number">✆</span>
+                        <h3>Prefer to call?</h3>
+                        <p>Reach us directly at +91 80 4567 1234, daily 8 AM – 10 PM.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div class="wrap">
+
+            <div class="footer-grid">
+
+                <div class="footer-brand-col">
+
+                    <div class="footer-brand">
+
+                        <span class="footer-mark">Rangoli</span>
+
+                    </div>
+
+                    <p>
+
+                        Traditional Andhra recipes, fresh ingredients
+                        and a warm dining room — made for sharing
+                        a meal with the people you love.
+
+                    </p>
+
+                    <div class="social-row">
+
+                        <a href="#" aria-label="Instagram">IG</a>
+
+                        <a href="#" aria-label="Facebook">FB</a>
+
+                        <a href="#" aria-label="WhatsApp">WA</a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="footer-col">
+
+                    <h4>Explore</h4>
+
+                    <ul>
+
+                        <li><a href="./menu.html">Menu</a></li>
+                        <li><a href="./cart.html">Your Cart</a></li>
+                        <li><a href="./about.html">Our Story</a></li>
+                        <li><a href="./gallery.html">Gallery</a></li>
+                        <li><a href="./reservation.html">Reservation</a></li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="footer-col">
+
+                    <h4>Visit</h4>
+
+                    <ul>
+
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./contact.html#hours">Opening Hours</a></li>
+                        <li><a href="./contact.html#faq">FAQs</a></li>
+                        <li><a href="./feedback.html">Feedback</a></li>
+                        <li><a href="./reservation.html">Private Dining</a></li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="footer-col">
+
+                    <h4>Account</h4>
+
+                    <ul>
+
+                        <li><a href="./authentication/login.html">Log in</a></li>
+                        <li><a href="./authentication/signin.html">Sign up</a></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-row">
+
+                <span>© 2026 Rangoli Restaurant. All Rights Reserved.</span>
+
+                <span>Crafted with care in Andhra Pradesh, India.</span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
