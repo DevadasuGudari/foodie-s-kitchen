@@ -22,7 +22,7 @@ The goal is to create a website that feels **welcoming, cultural, elegant, and e
 
 ## Live Demo
 
-[**View Live Demo →**](https://foodies-kitchen.netlify.app/)
+[**View Live Demo →**](https://foodies-kit.netlify.app/)
 
 ---
 
