@@ -20,27 +20,76 @@ The goal is a site that feels welcoming, cultural, elegant, and easy to navigate
 
 ---
 
+## Live Demo
+
+[**View Live Demo →**](https://rangoli-res.netlify.app/)
+
+---
+
+## Screenshots
+
+### Home Page
+
+![Rangoli Restaurant Home](./screenshots/home.png)
+
+### Menu Page
+
+![Rangoli Restaurant Menu](./screenshots/menu.png)
+
+### About / Our Story
+
+![Rangoli Restaurant About](./screenshots/about.png)
+
+### Gallery
+
+![Rangoli Restaurant Gallery](./screenshots/gallery.png)
+
+### Reservation
+
+![Rangoli Restaurant Reservation](./screenshots/reservation.png)
+
+### Contact
+
+![Rangoli Restaurant Contact](./screenshots/contact.png)
+
+### Cart
+
+![Rangoli Restaurant Cart](./screenshots/cart.png)
+
+### Feedback
+
+![Rangoli Restaurant Feedback](./screenshots/feedback.png)
+
+### Login
+
+![Rangoli Restaurant Login](./screenshots/login.png)
+
+### Sign Up
+
+![Rangoli Restaurant Sign Up](./screenshots/signup.png)
+
+---
+
 ## Pages
 
-| File | Title | Description |
-| --- | --- | --- |
-| `index.html` | Home | Landing page with branding, navigation, hero section, and featured content |
-| `menu.html` | Menu | Categorized food menu with dish names, descriptions, and prices |
-| `about.html` | Our Story | Restaurant story, food philosophy, and general information |
-| `gallery.html` | Gallery | Food and ambiance image gallery |
-| `reservation.html` | Reservation | Table reservation form (date, time, guests, special requests) |
-| `contact.html` | Visit Us | Location and contact information |
-| `cart.html` | Your Cart | Cart page for selected items |
-| `feedback.html` | Feedback | Customer feedback form |
-| `authentication/login.html` | Log in | Customer login page |
-| `authentication/signin.html` | Sign up | Customer registration page |
+| File                         | Title       | Description                                                                |
+| ---------------------------- | ----------- | -------------------------------------------------------------------------- |
+| `index.html`                 | Home        | Landing page with branding, navigation, hero section, and featured content |
+| `menu.html`                  | Menu        | Categorized food menu with dish names, descriptions, and prices            |
+| `about.html`                 | Our Story   | Restaurant story, food philosophy, and general information                 |
+| `gallery.html`               | Gallery     | Food and ambiance image gallery                                            |
+| `reservation.html`           | Reservation | Table reservation form (date, time, guests, special requests)              |
+| `contact.html`               | Visit Us    | Location and contact information                                           |
+| `cart.html`                  | Your Cart   | Cart page for selected items                                               |
+| `feedback.html`              | Feedback    | Customer feedback form                                                     |
+| `authentication/login.html`  | Log in      | Customer login page                                                        |
+| `authentication/signin.html` | Sign up     | Customer registration page                                                 |
 
 ---
 
 ## Project Structure
-
-```
 Restaurent/
+│
 ├── index.html
 ├── menu.html
 ├── about.html
@@ -50,26 +99,41 @@ Restaurent/
 ├── cart.html
 ├── feedback.html
 ├── style.css
+│
 ├── authentication/
 │   ├── login.html
 │   └── signin.html
+│
+├── screenshots/
+│   ├── home.png
+│   ├── menu.png
+│   ├── about.png
+│   ├── gallery.png
+│   ├── reservation.png
+│   ├── contact.png
+│   ├── cart.png
+│   ├── feedback.png
+│   ├── login.png
+│   ├── signup.png
+│   └── mobile.png
+│
 └── images/
     ├── food/
     ├── ambiance/
     └── cheffs/
-```
 
+    
 ---
 
 ## Technologies Used
 
-| Technology | Purpose |
-| --- | --- |
-| HTML5 | Website structure |
-| CSS3 | Styling and responsive design |
-| CSS Grid & Flexbox | Page and component layout |
-| CSS Custom Properties | Theme management |
-| CSS Media Queries | Responsive design across screen sizes |
+| Technology            | Purpose                               |
+| --------------------- | ------------------------------------- |
+| HTML5                 | Website structure                     |
+| CSS3                  | Styling and responsive design         |
+| CSS Grid & Flexbox    | Page and component layout             |
+| CSS Custom Properties | Theme management                      |
+| CSS Media Queries     | Responsive design across screen sizes |
 
 ---
 
